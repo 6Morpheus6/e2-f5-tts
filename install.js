@@ -26,7 +26,14 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install -e .",
+          "uv pip install hf_xet"
         ]
+      }
+    },
+    {
+      method: "notify",
+      params: {
+        html: "Click the 'start' tab to get started!"
       }
     }
   ]
