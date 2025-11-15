@@ -29,6 +29,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install -e .",
+          "uv pip uninstall torchcodec",
           "uv pip install hf_xet"
         ]
       }
